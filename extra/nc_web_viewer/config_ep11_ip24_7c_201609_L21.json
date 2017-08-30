@@ -1,0 +1,106 @@
+{
+  "title": "ep11_ip24_7c_201609.csv", 
+  "url": "http://10.32.47.106:11611", 
+  "latlonbox": {
+    "max": {
+      "location": [
+        41.17865397233169, 
+        122.3876953125
+      ]
+    }, 
+    "min": {
+      "location": [
+        19.8907230239969, 
+        103.798828125
+      ]
+    }
+  }, 
+  "tilesurl": "http://{s}.tile.osm.org/{z}/{x}/{y}.png", 
+  "heatmapmaxlevel": 21, 
+  "div": {
+    "info": {
+      "opacity": 0.9, 
+      "padding": 0, 
+      "z-index": 1, 
+      "right": "1ch", 
+      "color": "white", 
+      "position": "absolute", 
+      "top": "1em", 
+      "height": "1em"
+    }, 
+    "VEHICLESPEEDHSC": {
+      "opacity": 0.8, 
+      "right": "1ch", 
+      "logaxis": false, 
+      "height": "5em", 
+      "width": "45ch", 
+      "z-index": 1, 
+      "displaynumcat": 1, 
+      "margin-left": "15ch", 
+      "position": "absolute", 
+      "alpha_order": true, 
+      "top": "25em", 
+      "background-color": "#555"
+    }, 
+    "location": {
+      "padding": 0, 
+      "width": "100%", 
+      "z-index": 0, 
+      "float": "left", 
+      "margin": 0, 
+      "height": "100%"
+    }, 
+    "HevSystemMode": {
+      "opacity": 0.8, 
+      "right": "1ch", 
+      "logaxis": false, 
+      "height": "8em", 
+      "width": "45ch", 
+      "z-index": 1, 
+      "displaynumcat": 3, 
+      "margin-left": "15ch", 
+      "position": "absolute", 
+      "alpha_order": true, 
+      "top": "3em", 
+      "background-color": "#555"
+    }, 
+    "Vehicle": {
+      "opacity": 0.8, 
+      "right": "1ch", 
+      "logaxis": false, 
+      "height": "5em", 
+      "width": "45ch", 
+      "z-index": 1, 
+      "displaynumcat": 1, 
+      "margin-left": "15ch", 
+      "position": "absolute", 
+      "alpha_order": true, 
+      "top": "31em", 
+      "background-color": "#555"
+    }, 
+    "BMSPACKSOC": {
+      "opacity": 0.8, 
+      "right": "1ch", 
+      "logaxis": false, 
+      "height": "11em", 
+      "width": "45ch", 
+      "z-index": 1, 
+      "displaynumcat": 5, 
+      "margin-left": "15ch", 
+      "position": "absolute", 
+      "alpha_order": true, 
+      "top": "12em", 
+      "background-color": "#555"
+    }, 
+    "DATA_DATE": {
+      "opacity": 0.8, 
+      "bottom": "1em", 
+      "height": "10em", 
+      "width": "75%", 
+      "z-index": 1, 
+      "position": "absolute", 
+      "background-color": "#555", 
+      "left": "1ch"
+    }
+  }
+}

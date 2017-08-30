@@ -1,0 +1,64 @@
+{
+  "title": "ip24data_8c_20160708_5m.csv", 
+  "url": "http://10.32.47.106:12616", 
+  "latlonbox": {
+    "max": {
+      "location": [
+        70.38799721997215, 
+        126.6943359375
+      ]
+    }, 
+    "min": {
+      "location": [
+        19.993998469485494, 
+        20.91522216796875
+      ]
+    }
+  }, 
+  "tilesurl": "http://{s}.tile.osm.org/{z}/{x}/{y}.png", 
+  "heatmapmaxlevel": 25, 
+  "div": {
+    "info": {
+      "opacity": 0.9, 
+      "padding": 0, 
+      "z-index": 1, 
+      "right": "1ch", 
+      "color": "white", 
+      "position": "absolute", 
+      "top": "1em", 
+      "height": "1em"
+    }, 
+    "DATA_DATE": {
+      "opacity": 0.8, 
+      "bottom": "1em", 
+      "height": "10em", 
+      "width": "75%", 
+      "z-index": 1, 
+      "position": "absolute", 
+      "background-color": "#555", 
+      "left": "1ch"
+    }, 
+    "VIN": {
+      "opacity": 0.8, 
+      "right": "1ch", 
+      "logaxis": false, 
+      "height": "41em", 
+      "width": "51ch", 
+      "z-index": 1, 
+      "displaynumcat": 25, 
+      "margin-left": "21ch", 
+      "position": "absolute", 
+      "alpha_order": true, 
+      "top": "3em", 
+      "background-color": "#555"
+    }, 
+    "location": {
+      "padding": 0, 
+      "width": "100%", 
+      "z-index": 0, 
+      "float": "left", 
+      "margin": 0, 
+      "height": "100%"
+    }
+  }
+}

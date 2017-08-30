@@ -1,0 +1,95 @@
+{
+  "nanocube": {
+    "ip24data_6c_201607_08_csv": {
+      "url": "http://10.32.47.106:11607"
+    }
+  }, 
+  "widget": {
+    "BMSPACKSOC": {
+      "logaxis": false, 
+      "type": "cat", 
+      "alpha_order": true, 
+      "css": {
+        "opacity": 0.8, 
+        "width": "277px", 
+        "height": "140px"
+      }, 
+      "title": "BMSPACKSOC"
+    }, 
+    "VEHICLESPEEDHSC": {
+      "logaxis": false, 
+      "type": "cat", 
+      "alpha_order": true, 
+      "css": {
+        "opacity": 0.8, 
+        "width": "277px", 
+        "height": "200px",
+      "color": "#555"
+      }, 
+      "title": "VEHICLESPEEDHSC"
+    }, 
+    "DATA_DATE": {
+      "type": "time", 
+      "css": {
+        "opacity": 0.8, 
+        "bottom": "30px", 
+        "height": "100px", 
+        "width": "1344px", 
+        "position": "absolute", 
+        "background-color": "#555", 
+        "left": "30px"
+      }, 
+      "title": "DATA_DATE"
+    }, 
+    "location": {
+      "title": "location", 
+      "tilesurl": "http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}.png", 
+      "levels": 25, 
+      "coarse_offset": 1, 
+      "type": "spatial", 
+"div":{
+"viewbox": [[20.8,93.2],[53,140.6]]
+},
+      "viewbox": [
+        [
+          10, 
+          100
+        ], 
+        [
+          53, 
+          140
+        ]
+      ], 
+      "css": {
+        "width": "100%", 
+        "float": "left", 
+        "height": "100%"
+      }
+    }, 
+    "HevSystemMode": {
+      "logaxis": false, 
+      "type": "cat", 
+      "alpha_order": true, 
+      "css": {
+        "opacity": 0.8, 
+        "width": "233px", 
+        "height": "200px"
+      }, 
+      "title": "HevSystemMode"
+    }
+  }, 
+  "datasrc": {
+    "Empty": {      
+     "expr": "ip24data_6c_201607_08_csv[BMSPACKSOC==\"Empty\"]",       
+"colormap": "Reds"    
+},   
+"Not Empty": {      
+"expr": "ip24data_6c_201607_08_csv[BMSPACKSOC!=\"Empty\"]",         
+"colormap": "Greens"    
+}
+
+
+
+}
+
+}

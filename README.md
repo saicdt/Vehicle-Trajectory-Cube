@@ -71,7 +71,7 @@ Set path to the boost directory
 
 export BOOST_ROOT=${PWD}/homebrew
 
-Compiling the latest release
+## Compiling the latest release
 
 set env:
 export NANOCUBE_SRC=/data/nanocube-3.2.1 && \
@@ -85,7 +85,7 @@ cd $NANOCUBE_SRC &&   rm -rf build && mkdir build && cd /data/nanocube-3.2.1/bui
 && ../configure --prefix=$NANOCUBE_SRC --with-tcmalloc CXXFLAGS="-O3"  --enable-multilib \
 && make  && make install && cd $NANOCUBE_SRC
 
-Running a nanocube
+## Running a nanocube
 
 With the nanocube toolkit installed, we are ready to build a nanocube with the Chicago Crimes example dataset file included in the distribution. Here is the command:
 
@@ -106,7 +106,7 @@ Please note: If port 29512 is already in use, select another port and use it con
 
 Please note: For lower level details on how to generate valid data for nanocubes go here
 
-Simple queries
+## Simple queries
 
 With a nanocube process running, we are able to query this nanocube using the HTTP-based API. Using your favorite browser (assuming your favorite is Chrome, Firefox, or Safari), enter the following simple queries and verify the JSON objects returned are correct. Please note that differences in computers (e.g. compilers, libraries) may result in some of the data being returned in a different order (e.g. query 2 and query 3).
 
