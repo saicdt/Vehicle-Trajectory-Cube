@@ -5,11 +5,11 @@ The Nanocube data structure developed by AT&T provides real-time exploration of 
 However, the origial releases of Nanocube are nothing more than a simple engine for academic demo. It is unstable, unrobust, not user-friendly, highly resouce-consuming, thus unable to be used widely, eg, in a real company's PROD environment.
 
 Here we release a fork from Nanocubes. Goals of this approcach include:
->1 Improve the performance and user experience
->2 Abate the resource costs
->3 Add functionalities to the front end
->4 Improve the stablility of the back end
->...
+>1 Improve the performance and user experience<br>
+2 Abate the resource costs<br>
+3 Add functionalities to the front end<br>
+4 Improve the stablility of the back end<br>
+...<br>
 
 We hope these efforts will make the production applicable for company use.
 
