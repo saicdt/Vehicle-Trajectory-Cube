@@ -1,8 +1,24 @@
 # Vehicle-Trajectory-Cube
-Fork from Nanocubes, did some optimization on network transfer, improve the performance by 5X. Apply Baidu map for CN users.
 
-Installing prerequisites
-==
+The Nanocube data structure developed by AT&T provides real-time exploration of large multidimensional spatiotemporal datasets with billions of entries. Algorithms have been presented to compute and query nanocube, and show how it can be used to generate well-known visual encodings such as heatmaps, histograms, and parallel coordinate plots. 
+
+However, the origial releases of Nanocube are nothing more than a simple engine for academic demo. It is unstable, unrobust, not user-friendly, highly resouce-consuming, thus unable to be used widely, eg, in a real company's PROD environment.
+
+Here we release a fork from Nanocubes. Goals of this approcach include:
+>1 Improve the performance and user experience
+>2 Abate the resource costs
+>3 Add functionalities to the front end
+>4 Improve the stablility of the back end
+>...
+
+We hope these efforts will make the production applicable for company use.
+
+For the first release, we did some optimization on network transfer, and thus improved the performance by more than 5X. We will also apply Baidu map for CN users.
+
+Below is the typical process for NC install.
+
+## Installing prerequisites
+
 The following are prerequisites for all systems:
 
 The nanocubes server is 64-bit only. There is NO support on 32-bit operating systems.
