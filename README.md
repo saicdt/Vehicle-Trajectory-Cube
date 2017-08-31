@@ -125,4 +125,8 @@ Query 2: Schema of the nanocube
 http://localhost:29512/schema
 
 ## Key feature in the next release
-
+>1 Improve the performance and user experience<br>
+2 Abate the resource costs<br>
+3 Add functionalities to the front end<br>
+4 Improve the stablility of the back end<br>
+...<br>
