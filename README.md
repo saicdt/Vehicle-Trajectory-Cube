@@ -125,8 +125,8 @@ Query 2: Schema of the nanocube
 http://localhost:29512/schema
 
 ## Key feature in the next release
->1 Improve the performance and user experience<br>
-2 Abate the resource costs<br>
-3 Add functionalities to the front end<br>
-4 Improve the stablility of the back end<br>
+>1 Use Baidu map for CN users<br>
+2 Use Nginx as web service engine<br>
+3 Upgrade from HTTP1.1 to 2.0, will get a significant speed up <br>
+4 Optimize map operation when users do interaction<br>
 ...<br>
