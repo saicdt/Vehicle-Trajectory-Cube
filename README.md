@@ -124,3 +124,4 @@ Query 2: Schema of the nanocube
 
 http://localhost:29512/schema
 
+## Next Release 
