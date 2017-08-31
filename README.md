@@ -129,4 +129,3 @@ http://localhost:29512/schema
 2 Use Nginx as web service engine<br>
 3 Upgrade from HTTP1.1 to 2.0, will get a significant speed up <br>
 4 Optimize map operation when users do interaction<br>
-...<br>
